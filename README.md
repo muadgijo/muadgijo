@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-# 💫 About Me:
+#  About Me:
 🧪 I'm currently working on<br><br>AMR-X — a project where I try to make sense of antibiotic resistance while also trying to make sense of my life choices.<br>Also building my foundations in Python, ML, and bioinformatics (in that order… hopefully).<br><br>🤝 I'm looking to collaborate on<br><br>Bioinformatics mini-projects, ML + biology experiments, or anything where we pretend to understand genomes together.<br><br>🆘 I'm looking for help with<br><br>• Real-world ML workflows<br>• Genomic data analysis<br>• And figuring out how people land internships without sacrificing their sanity<br><br>🌱 I'm currently learning<br><br>Python, ML basics, sequence analysis, DNA pattern matching… basically, how to convince computers to understand biology better than I do.<br><br>💬 Ask me about<br><br>AMR-X, beginner bioinformatics paths, ML-biology study plans, or how to start from zero without crying (too much).<br><br>⚡ Fun fact<br><br>My body wakes up like a potato, but my brain hyper-focuses instantly the moment I see anything biology-related. It's unfortunate, but useful.
 
 
