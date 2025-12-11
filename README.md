@@ -99,37 +99,41 @@ using lightweight ML + dashboards + pharmacist logging.
 
 </div>
 
----
 
-# 🗂 Mini-Portfolio Grid
+
+## 🗂 Mini-Portfolio Grid
 
 <div align="center">
 
 <table>
   <tr>
+
+    <!-- AMR-X -->
     <td width="280" align="center">
       <a href="https://github.com/muadgijo/AMR-X"><strong>AMR-X</strong></a>
       <p>Antibiotic resistance mapping pipeline.</p>
       <img src="https://img.shields.io/github/stars/muadgijo/AMR-X?style=social" />
     </td>
 
+    <!-- Fragments -->
     <td width="280" align="center">
       <a href="https://github.com/muadgijo/fragments"><strong>Fragments</strong></a>
       <p>Small tools, scripts & experiments.</p>
       <img src="https://img.shields.io/github/stars/muadgijo/fragments?style=social" />
     </td>
 
+    <!-- Learning Notes -->
     <td width="280" align="center">
       <a href="https://github.com/muadgijo/learning-notes"><strong>Learning Notes</strong></a>
       <p>Notes for ML, Python & Bioinformatics.</p>
       <img src="https://img.shields.io/github/stars/muadgijo/learning-notes?style=social" />
     </td>
+
   </tr>
 </table>
 
 </div>
 
----
 
 # 🎨 Custom Banner (Light/Dark Switch)
 
