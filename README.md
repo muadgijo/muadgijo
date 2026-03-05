@@ -88,7 +88,7 @@ Not trying to save the world yet. Just learning, building, and iterating.
 <tr>
 <td colspan="2">
 
-### 🌐 [AMR-X Platform](https://github.com/muadgijo/AMR-X)
+### 🌐 [AMR-X Platform](https://github.com/ryygeorge/Amr-x)
 **Full-stack AMR surveillance system**
 
 **Architecture:**
@@ -106,7 +106,7 @@ Public symptom form → Firestore → ML prediction → Dashboard analytics
 
 **Tech:** Python • Flask • Firestore • HTML/CSS • Chart.js
 
-[![Repo](https://img.shields.io/badge/View%20Platform-06B6D4?style=for-the-badge&logo=github)](https://github.com/muadgijo/AMR-X)
+[![Repo](https://img.shields.io/badge/View%20Platform-06B6D4?style=for-the-badge&logo=github)](https://github.com/ryygeorge/Amr-x)
 
 **Status:** 🚧 Active development • Not production-ready • Academic research project
 
