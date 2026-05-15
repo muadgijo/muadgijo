@@ -112,6 +112,42 @@ Public symptom form → Firestore → ML prediction → Dashboard analytics
 
 </td>
 </tr>
+<tr>
+<td width="50%">
+
+### 🧠 [RAGBOT](https://github.com/muadgijo/RAGBOT)
+**Local RAG system for AWS Lambda docs**
+
+```
+📚 Cleans noisy markdown docs for better retrieval
+🧩 Builds a ChromaDB vector store from cleaned text
+🤖 Runs local question-answering with Ollama (Phi-3)
+🔍 Includes direct retrieval inspection utilities
+```
+
+**Tech:** Python • LangChain • ChromaDB • Ollama • HuggingFace
+
+[![Repo](https://img.shields.io/badge/View%20Code-22C55E?style=for-the-badge&logo=github)](https://github.com/muadgijo/RAGBOT)
+
+</td>
+<td width="50%">
+
+### 🧼 [Future Hygienics (FutureHygenics repo)](https://github.com/muadgijo/FutureHygenics)
+**Production-style static company website**
+
+```
+🌐 Single-page site built for Future Hygienic Products
+📱 Mobile-first layout and deploy-ready structure
+⚡ Lightweight architecture (HTML + Tailwind CDN)
+🚀 Ready for Cloudflare Pages / Netlify deployment
+```
+
+**Tech:** HTML • Tailwind CSS
+
+[![Repo](https://img.shields.io/badge/View%20Code-3B82F6?style=for-the-badge&logo=github)](https://github.com/muadgijo/FutureHygenics)
+
+</td>
+</tr>
 </table>
 
 ---
@@ -180,9 +216,9 @@ Public symptom form → Firestore → ML prediction → Dashboard analytics
 
 | 📅 Now | 🔜 Next | 💭 Planning |
 |--------|---------|-------------|
-| AMR-XML model tuning | Deploy AMR-X platform | Write research paper |
-| Biopython basics | Mobile symptom form | Contribute to open source |
-| Dataset preprocessing | Add authentication | Build sequence classifier |
+| RAGBOT retrieval tuning | Deploy AMR-X platform | Write research paper |
+| FutureHygenics content updates | Mobile symptom form | Contribute to open source |
+| AMR-XML model tuning | Add authentication | Build sequence classifier |
 
 ---
 
@@ -222,6 +258,6 @@ I'm interested in:
 
 **Built with Python • Driven by curiosity • Focused on impact**
 
-<sub>Last updated: January 2026</sub>
+<sub>Last updated: May 2026</sub>
 
 </div>
