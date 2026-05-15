@@ -132,11 +132,11 @@ Public symptom form → Firestore → ML prediction → Dashboard analytics
 </td>
 <td width="50%">
 
-### 🧼 [Future Hygienics (FutureHygenics repo)](https://github.com/muadgijo/FutureHygenics)
+### 🧼 [FutureHygenics](https://github.com/muadgijo/FutureHygenics)
 **Production-style static company website**
 
 ```
-🌐 Single-page site built for Future Hygienic Products
+🌐 Single-page site built for FutureHygenics
 📱 Mobile-first layout and deploy-ready structure
 ⚡ Lightweight architecture (HTML + Tailwind CDN)
 🚀 Ready for Cloudflare Pages / Netlify deployment
