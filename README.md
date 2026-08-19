@@ -1,325 +1,210 @@
-![Header](https://capsule-render.vercel.app/api?type=venom&color=0,0D1117,0D1117,0D1117&height=200&section=header&text=JOEL%20GIJO&fontSize=80&fontColor=3FB950&fontAlignY=55&animation=fadeIn&desc=muadgijo%20%E2%80%94%20CSE%20%C2%B7%20AMR%20%C2%B7%20ML%20%C2%B7%20Kerala&descSize=15&descAlignY=75&descColor=8B949E)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0,0D1117,161B22,0D1117&height=180&section=header&text=Joel%20Gijo&fontSize=72&fontColor=3FB950&fontAlignY=55&animation=fadeIn&desc=AI%20Engineer%20%E2%80%94%20RAG%20%C2%B7%20LLM%20APIs%20%C2%B7%20Applied%20ML%20%C2%B7%20Kerala%2C%20India&descSize=14&descAlignY=76&descColor=8B949E)
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=3500&pause=1000&color=3FB950&center=true&vCenter=true&width=750&lines=building+ML+tools+for+antibiotic+resistance+%F0%9F%A7%AC;CSE+undergrad+%7C+bioinformatics+%7C+Kerala%2C+India;half+tweaked+out.+fully+committed+to+the+work.;14+repos+%E2%80%94+one+mission.)
+<div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/joel-gijo-41007b359)
-[![Gmail](https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:joelgijo03@gmail.com)
-[![GitHub followers](https://img.shields.io/github/followers/muadgijo?style=flat-square&color=3FB950&label=followers)](https://github.com/muadgijo?tab=followers)
-[![Profile Views](https://komarev.com/ghpvc/?username=muadgijo&color=3fb950&style=flat-square)](https://github.com/muadgijo)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/joelgijo)
+[![Gmail](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:joelgijo03@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-muadgijo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/muadgijo)
+[![Open to Work](https://img.shields.io/badge/Open%20to%20Work-Junior%20AI%20Engineer-3FB950?style=flat-square)](mailto:joelgijo03@gmail.com)
+
+</div>
 
 ---
-
-![divider](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
 ## `$ whoami`
 
 ```python
 profile = {
-    "name"      : "Joel Gijo",
-    "alias"     : "muadgijo",
-    "age"       : 22,
-    "location"  : "Kerala, India",
-    "status"    : "Limbo — undergrad, researcher, builder",
-    "focus"     : [
-        "Antimicrobial Resistance (AMR)",
-        "Machine Learning for Healthcare",
-        "Bioinformatics"
+    "name"     : "Joel Gijo",
+    "role"     : "Junior AI Engineer · GenAI Developer · LLM Application Developer",
+    "location" : "Kottayam, Kerala, India · Open to remote and relocation",
+    "focus"    : ["RAG pipelines", "LLM APIs", "ML inference", "production APIs"],
+    "shipped"  : [
+        "Production RAG API — live on Render with RAGAS evaluation",
+        "AMR-X ML layer — XGBoost on 1.4M clinical records, 2× IEEE papers",
     ],
-    "current"   : "Building the AMR-X ecosystem",
-    "goal"      : "Open-source tools that help track antibiotic resistance",
-    "warning"   : "Student research project — not for clinical use"
+    "education": "B.Tech CSE — Amal Jyothi College of Engineering (2026)",
 }
 ```
 
-> Antimicrobial resistance kills over **1.27 million people a year** and most of the good tooling is either paywalled, brittle, or built for labs with 10 PhDs on staff. I'm building open, honest, ML-powered tools to help close that gap — one model, one pipeline, one repo at a time.
-
-![divider](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
-
----
-
-## `$ ls ~/projects/amr/`
-
-> The core ecosystem — everything feeds into predicting and tracking antibiotic resistance.
-
-### 🔬 [amrxml](https://github.com/muadgijo/amrxml) — XGBoost AMR Prediction Engine
-
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/muadgijo/amrxml)
-[![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=flat-square)](https://github.com/muadgijo/amrxml)
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://github.com/muadgijo/amrxml)
-[![Stars](https://img.shields.io/github/stars/muadgijo/amrxml?style=flat-square&color=3FB950)](https://github.com/muadgijo/amrxml/stargazers)
-
-The heart of the AMR-X project. Feed it an **organism + antibiotic pair**, get back a **resistance probability**. Trained on real clinical microbiology data from Hugging Face datasets.
-
-```
-Input:  Organism (e.g. E. coli) + Antibiotic (e.g. Ciprofloxacin)
-Output: Resistance probability  →  0.87  ⚠️ High resistance likely
-
-Evaluation: ROC-AUC (because raw accuracy on imbalanced clinical
-            data is a lie and I know better)
-Demo:       Streamlit app for interactive testing
-```
-
-**What makes it different:** Most AMR models are stuck in research papers. This one ships with a working demo and honest evaluation metrics.
+> B.Tech graduate who builds and ships. Not just notebooks — REST APIs, Docker containers, live endpoints.  
+> Two IEEE conference papers. One Best Paper Award. One live RAG system you can hit right now.  
 
 ---
 
-### ⚙️ [amrx-ml-service](https://github.com/muadgijo/amrx-ml-service) — ML Microservice Layer
+## `$ ls ~/projects/`
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/muadgijo/amrx-ml-service)
-[![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)](https://github.com/muadgijo/amrx-ml-service)
-[![Stars](https://img.shields.io/github/stars/muadgijo/amrx-ml-service?style=flat-square&color=3FB950)](https://github.com/muadgijo/amrx-ml-service/stargazers)
+### 🤖 RAGBOT — Production RAG API
+> **[Live API](https://ragbot-9knh.onrender.com/) · [Swagger /docs](https://ragbot-9knh.onrender.com/docs) · [GitHub](https://github.com/muadgijo/RAGBOT)**
 
-Wraps the AMR-XML model into a REST API so the full-stack platform can actually talk to it. This is where research meets engineering — the bridge between a trained model and a real application.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq_LPU-F55036?style=flat-square)
+
+A two-stage RAG pipeline over AWS Lambda documentation, deployed as a FastAPI REST service. The engineering story here is production constraints: the naive approach ballooned to a **3.5 GB Docker image with 1–2 GB RAM at runtime** — unusable on free-tier cloud. Switched from SentenceTransformers to **FastEmbed (ONNX)** to bring the image down to **250 MB** and runtime to **<100 MB RAM**.
 
 ```
-amrxml model  →  Flask REST API  →  AMR-X Platform frontend
-                      ↑
-              [amrx-ml-service]
+Architecture
+────────────────────────────────────────────────────────────────
+Query
+  ↓
+Stage 1 — Vector similarity search (ChromaDB + HuggingFace / FastEmbed)
+Stage 2 — Keyword reranking
+  ↓
+Dual LLM backend   [env-var switch]
+  ├── Local:  Ollama (Phi-3) — no-cost inference
+  └── Cloud:  Groq LPU — ~2.4 s avg latency
+  ↓
+FastAPI REST response — structured JSON + source citations
+
+Deployment: Docker → Render  |  Swagger: /docs  |  Health: /health
+────────────────────────────────────────────────────────────────
 ```
 
-**Status:** Active development · Core service for the AMR-X platform
+**RAGAS LLM-as-Judge evaluation (independent framework, not self-reported):**
+
+| Metric | Score | Notes |
+|---|---|---|
+| Avg Answer Relevance | **88%** | Across full test set |
+| Avg Faithfulness | **69.5%** | Weighted avg (in/out of corpus) |
+| Faithfulness — in-corpus | **89–100%** | Queries the corpus can answer |
+| Faithfulness — out-of-corpus | **18%** | Expected, documented, explainable |
+| Avg Latency | **~2.4 s** | Groq LPU backend |
+
+> The 18% out-of-corpus score is not a bug — it reflects the system correctly refusing to hallucinate beyond the corpus. This is documented in the evaluation writeup.
 
 ---
 
-### 📊 [Amr-x-ML](https://github.com/muadgijo/Amr-x-ML) — Notebooks & Experiments
+### 🦠 AMR-X — Antimicrobial Resistance Surveillance Platform
+> **[Live Demo](https://github.com/ryygeorge/Amr-x) · [GitHub](https://github.com/muadgijo/amrxml) · 2× IEEE Conference Papers (2026)**
 
-[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)](https://github.com/muadgijo/Amr-x-ML)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/muadgijo/Amr-x-ML)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=flat-square)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 
-The R&D layer. All the experiments, model iterations, data exploration, and dead ends that eventually led to amrxml. Messy by design — this is where the actual thinking happens before it gets cleaned up into production code.
+ML inference layer for a 3-tier antimicrobial resistance surveillance platform. Trained an XGBoost classifier on **1.4M clinical records** and wrapped it in a Flask REST API with input validation and rate limiting, deployed on Render. Collaborative project with [@ryygeorge](https://github.com/ryygeorge).
 
 ```
-Data exploration  →  Feature engineering  →  Model selection
-                                                    ↓
-                                           amrxml production model
+Platform tiers
+────────────────────────────────────────────────
+Public symptom form  →  Firestore  →  ML inference  →  District dashboards
+Pharmacist prescription logs  ────────────────↑
+────────────────────────────────────────────────
+
+ML layer (my work):
+  ✦ XGBoost classifier — 1.4M clinical records
+  ✦ ROC-AUC: 0.81 · Sensitivity: 82%
+  ✦ Flask REST API + input validation + rate limiting
+  ✦ Deployed on Render
+
+Research output:
+  ✦ 2× peer-reviewed IEEE Conference Papers (2026)
+  ✦ Best Main Project Award — College Expo 2026
+  ✦ Best Paper Award — NACCORE 2024 (GeneQuest)
 ```
+
+> ⚠️ Student research project — not for clinical use.
 
 ---
 
-### 🌐 [AMR-X Platform](https://github.com/ryygeorge/Amr-x) — Full-Stack Surveillance System
+### 📊 Instagram Follower Analyser — Social Data Analytics Tool
+> **[GitHub](https://github.com/muadgijo/instagram-analyser) · 2024**
 
-[![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)](https://github.com/ryygeorge/Amr-x)
-[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://github.com/ryygeorge/Amr-x)
-[![ChartJS](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chart.js&logoColor=white)](https://github.com/ryygeorge/Amr-x)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
-The full-stack system that ties everything together. Collaborative project with [@ryygeorge](https://github.com/ryygeorge).
-
-```
-Architecture:
-
-  Public symptom form  ──▶  Firestore  ──▶  ML prediction  ──▶  Dashboard
-                                ▲
-                    Pharmacist prescription logs
-
-Features:
-  ✦ Symptom submission interface (public-facing)
-  ✦ Prescription logging module (pharmacist-facing)
-  ✦ Resistance trend dashboards with Chart.js
-  ✦ Role-based access control
-  ✦ ML predictions via amrx-ml-service
-```
-
-**Status:** 🚧 Active development · Academic research project · Not production-ready
+Python tool that parses Instagram data export archives, identifies non-reciprocal connections, and tracks follower dynamics across multiple exports. Deployed as a Streamlit app with in-memory processing (no data stored). Includes searchable tables, multi-archive comparison, and CSV export for mutuals/unfollower analysis.
 
 ---
-
-![divider](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
-
-## `$ ls ~/projects/bioinformatics/`
-
-> Sequence analysis, genomics, and learning the biology layer.
-
-### 🧬 [GeneQuest](https://github.com/muadgijo/GeneQuest) — Gamified Gene Research Platform
-
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://github.com/muadgijo/GeneQuest)
-[![Stars](https://img.shields.io/github/stars/muadgijo/GeneQuest?style=flat-square&color=3FB950)](https://github.com/muadgijo/GeneQuest/stargazers)
-
-Forked from [@jeffinjk](https://github.com/jeffinjk/GeneQuest) and contributed to. A platform that makes genomics and gene research explorable through a game-like interface. The idea: learning sequences and gene function shouldn't feel like reading a textbook.
-
-```
-Gene research  +  Game mechanics  =  Actually learning bioinformatics
-```
-
----
-
-### 🔭 [Bioinformatics-Python-Kaggle](https://github.com/muadgijo/Bioinformatics-Python-Kaggle) — Learning Notebooks
-
-[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)](https://github.com/muadgijo/Bioinformatics-Python-Kaggle)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/muadgijo/Bioinformatics-Python-Kaggle)
-
-Kaggle-based bioinformatics exercises in Python — sequence alignment, FASTA parsing, genomic analysis with Biopython. The learning log. Every notebook is me getting a little less bad at computational biology.
-
-```
-Topics:
-  ✦ Sequence alignment (pairwise, multiple)
-  ✦ FASTA file parsing and manipulation
-  ✦ Basic genomic analysis scripts
-  ✦ Biopython workflows
-```
-
----
-
-![divider](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
-
-## `$ ls ~/projects/ai-ml/`
-
-> ML tooling, RAG systems, and applied AI experiments.
-
-### 🤖 [RAGBOT](https://github.com/muadgijo/RAGBOT) — Local RAG System
-
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/muadgijo/RAGBOT)
-[![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)](https://github.com/muadgijo/RAGBOT)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square)](https://github.com/muadgijo/RAGBOT)
-
-A fully local RAG (Retrieval-Augmented Generation) pipeline for AWS Lambda documentation. No cloud APIs, no OpenAI key. Runs entirely on your machine.
-
-```
-Pipeline:
-
-  Noisy markdown docs
-       ↓
-  Cleaning + chunking
-       ↓
-  ChromaDB vector store  ←  HuggingFace embeddings
-       ↓
-  Ollama (Phi-3)  →  Local QA responses
-       ↓
-  Retrieval inspection utilities
-```
-
-**Why it exists:** Understanding the retrieval stack from the ground up — not just calling an API and hoping for the best.
-
----
-
-![divider](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
-
-## `$ ls ~/projects/web/`
-
-> Client work and web projects.
-
-### 🌍 [FutureHygenics](https://github.com/muadgijo/FutureHygenics) — Company Website
-
-[![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://github.com/muadgijo/FutureHygenics)
-[![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://github.com/muadgijo/FutureHygenics)
-[![Stars](https://img.shields.io/github/stars/muadgijo/FutureHygenics?style=flat-square&color=3FB950)](https://github.com/muadgijo/FutureHygenics/stargazers)
-
-Production-style static site built for FutureHygenics. Mobile-first layout, Tailwind CDN, deploy-ready for Cloudflare Pages or Netlify. Lightweight, fast, no fluff.
-
-```
-Stack:  HTML · Tailwind CSS (CDN)
-Deploy: Cloudflare Pages / Netlify ready
-Type:   Mobile-first, single page
-```
-
----
-
-![divider](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
 ## `$ cat tech_stack.json`
-
-**Core**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
-**Machine Learning**
-
-![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=for-the-badge)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 **RAG & LLM Tooling**
 
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge)
+![Groq](https://img.shields.io/badge/Groq_API-F55036?style=for-the-badge)
 
-**Backend & Databases**
+**ML & Data**
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=for-the-badge)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+
+**APIs & Backends**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 
-**Web**
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![ChartJS](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chart.js&logoColor=white)
-
-**Bioinformatics**
-
-![Biopython](https://img.shields.io/badge/Biopython-2FA44F?style=for-the-badge&logo=python&logoColor=white)
-
-**Learning**
+**Infrastructure & Storage**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
 
 ---
 
-![divider](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
-
-## `$ git log --stat`
-
-| ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=muadgijo&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=3FB950&icon_color=3FB950&text_color=8B949E) | ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=muadgijo&theme=github-dark-blue&hide_border=true&background=0D1117&ring=3FB950&fire=FF6B35&currStreakLabel=3FB950&sideLabels=8B949E) |
-|:-:|:-:|
-| ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=muadgijo&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=3FB950&text_color=8B949E&langs_count=8) | ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=muadgijo&bg_color=0D1117&color=3FB950&line=3FB950&point=FFFFFF&area=true&area_color=3FB95020&hide_border=true) |
-
----
-
-![divider](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
-
-## `$ cat roadmap.txt`
+## `$ cat experience.log`
 
 ```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-  NOW
-  ├── AMR-XML model tuning (better features, reduce overfitting)
-  ├── RAGBOT retrieval pipeline improvements
-  └── FutureHygenics content + deployment
-
-  NEXT
-  ├── Deploy AMR-X platform (public beta)
-  ├── Mobile-friendly symptom intake form
-  ├── Auth layer for AMR-X
-  └── Sequence-level resistance classifier
-
-  PLANNING
-  ├── Live AMR resistance heatmap by region (D3.js + Flask)
-  │     aggregated prescription data, zero PII stored
-  ├── AMR-XML research writeup / paper
-  └── First open-source contributions outside own repos
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Luminar Technolab, Kochi — Data Engineering Trainee  [Jun – Aug 2025]
+────────────────────────────────────────────────────────────────────
+  ✦ Built Python ETL scripts to extract, clean, and standardize
+    structured datasets from multiple sources
+  ✦ Designed Pandas transformation pipelines and PostgreSQL queries
+    for data preparation and EDA workflows
+  ✦ Audited datasets for schema inconsistencies and null-value patterns;
+    produced structured quality reports reviewed by senior engineers
 ```
 
 ---
 
-![divider](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
+## `$ cat achievements.txt`
+
+```
+Papers & Awards
+────────────────────────────────────────────────
+  [2026]  2× IEEE Conference Papers — AMR-X predictive modeling
+  [2026]  Best Main Project Award — College Expo
+  [2024]  Best Paper Award — NACCORE (GeneQuest)
+  [2024]  Best Department Paper — GeneQuest
+
+Certifications
+────────────────────────────────────────────────
+  Machine Learning — Andrew Ng (Coursera)
+  IBM AI Engineering Fundamentals
+  Azure Fundamentals — DataCamp
+  NPTEL: Machine Learning, DBMS
+```
+
+---
 
 ## `$ ping joel`
 
-I'm interested in connecting with people working on:
+I'm looking for roles in **AI engineering**, **GenAI development**, and **LLM application development** — anywhere I can build real systems, not just demos. Open to **remote** and **relocation**.
 
-- 🧬 **Bioinformatics** — sequence analysis, genomics, computational biology
-- 🦠 **AMR research** — building surveillance tools or working with clinical micro data
-- 🤖 **Healthcare ML** — real applications, not toy demos
-- 📊 **Public health informatics** — open data, population-level tooling
+<div align="center">
 
-**Let's talk if you're building something real.**
+[![LinkedIn](https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/joelgijo)
+[![Email](https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joelgijo03@gmail.com)
+[![Repos](https://img.shields.io/badge/All_Repos-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/muadgijo?tab=repositories)
 
-[![Let's Connect](https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/joel-gijo-41007b359)
-[![Email Me](https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joelgijo03@gmail.com)
-[![All Repos](https://img.shields.io/badge/All_Repos-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/muadgijo?tab=repositories)
+</div>
 
 ---
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0,0D1117,3FB950&height=100&section=footer&reversal=false)
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0,0D1117,3FB950&height=90&section=footer)
 
-<b><sub>built in Kerala · powered by Python · fueled by the problem · 2026</sub></b>
+<div align="center"><sub>Kottayam, Kerala · Python · ships things · 2026</sub></div>
